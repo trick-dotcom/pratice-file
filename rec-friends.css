@@ -1,0 +1,46 @@
+.friend-box {
+  width: 376px;
+  height: 72px;
+  background-color: #15202b;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.friend-box:hover {
+  background-color: #202e3a;
+}
+img {
+  margin: 0px 17px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.friend-info {
+  color: white;
+  font-size: 13px;
+  font-weight: 800;
+}
+.friend-name:hover {
+  text-decoration: underline;
+}
+.friend-status {
+  color: #62727e;
+}
+.btn {
+  position: absolute;
+  right: 20px;
+}
+.follow-btn {
+  width: 75px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

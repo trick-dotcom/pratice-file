@@ -1,5 +1,19 @@
+.who-to-follow{
+  background-color: #15202b;
+  width:351px;
+  height: 330px;
+  font-family: 'Lato', sans-serif;
+  border-radius:20px;
+}
+.box-comment{
+  color:white;
+  margin-left:10px;
+  font-size:10px;
+  display: flex;
+  align-items: center;
+}
 .friend-box {
-  width: 376px;
+  box-sizing: border-box;
   height: 72px;
   background-color: #15202b;
   display: flex;
@@ -10,7 +24,7 @@
   background-color: #202e3a;
 }
 img {
-  margin: 0px 17px;
+  margin: 0px 12px;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -43,4 +57,24 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.fa-check-circle{
+  color:#1d9bf0;
+  margin-bottom:20px;
+}
+.anne-badge{
+  margin-left:7px;
+}
+.comment-bot{
+  height:63px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size:10px;
+  color:white;
+  padding-left:17px;
+}
+.fa-angle-down{
+  margin-left:5px;
 }
